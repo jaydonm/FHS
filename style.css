@@ -24,7 +24,6 @@ font-weight: bold;
 
 .desc {
     font-size: 14px;
-    color: pl;
 }
 
 .dropdownbtn {
@@ -68,15 +67,20 @@ font-weight: bold;
     background-color: #3e9e41 ;
 }
 
-.aligncenter {
+.text .desc {
     width: 50%;
     padding: 20px;
     text-align: center;
     margin: 10px auto ;
     background-color: rgb(241, 110, 110);
     box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, .3);
-    border-radius: 23px
-    
+    border-radius: 23px;
+    display: block;
+}
 
-    ;
+.logo {
+    width: 150px;
+    height: 100%;
+    display: wrap;
+    
 }
