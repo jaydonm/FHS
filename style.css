@@ -5,13 +5,13 @@ html,body {
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #d1d0c8;
+    background-color: #a8dfe0;
 }
 
 .title {
     background-position: center;
     object-fit:fill ;
-    height: 100% auto;
+    height: 300px auto;
     max-width: 100%;
     width: auto\9;
     margin: 5px auto;
@@ -28,7 +28,7 @@ font-weight: bold;
 
 .dropdownbtn {
     padding: 10px;
-    background-color: #d1d0c8;
+    background-color: #a8dfe0;
     font-family: cursive;
     color: rgb(59, 95, 59) ;
     cursor: pointer;
@@ -72,10 +72,9 @@ font-weight: bold;
     padding: 20px;
     text-align: center;
     margin: 10px auto ;
-    background-color: rgb(241, 110, 110);
+    background-color: #d5b397 ;
     box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, .3);
     border-radius: 23px;
-    display: block;
 }
 
 .logo {
