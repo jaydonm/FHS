@@ -38,15 +38,21 @@ font-weight: bold;
 }
 
 .logo {
-    width: 300px;
+    width: 450px;
     height: 100%;
     float: left;
-    margin-left: 100px;
-    margin-top: 20px;
 }
 
 .pages {
     text-decoration: none;
     text-emphasis: none;
     color: black;   
+}
+
+a {
+    text-decoration: none;
+    color: #217035;
+    padding: 5px;
+    background-color: #a8dfe0;
+    font-weight:bold;
 }
