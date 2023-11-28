@@ -58,5 +58,7 @@ a {
 }
 
 .report {
-    width: 100;
+    width: 540px;
+    height: 960px;
+    margin-left: 700px;
 }
