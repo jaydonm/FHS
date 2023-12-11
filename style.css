@@ -5,17 +5,17 @@ html,body {
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #a8dfe0;
+    background-color: #ffffff;
 }
 
 .title {
     background-position: center;
     object-fit:fill ;
-    height: 300px auto;
+    height: 100%;
     max-width: 100%;
-    width: auto\9;
-    margin: 5px auto;
-
+    width: 100%;
+    margin: auto;
+    scale: 100%;
 }
 
 .bolded {
