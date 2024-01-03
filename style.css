@@ -5,7 +5,7 @@ html,body {
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #d1e7e8;
+    background-color: #ffffff;
 }
 
 .title {
@@ -46,19 +46,28 @@ font-weight: bold;
 .pages {
     text-decoration: none;
     text-emphasis: none;
-    color: black;   
+    color: rgb(0, 0, 0); 
+    position: fixed
 }
 
 a {
     text-decoration: none;
-    color: #217035;
-    padding: 5px;
-    background-color: #a8dfe0;
+    color: #000000;
+    padding: 15px;
+    background-color: #ffffff;
     font-weight:bold;
+    font-size: 20px;
+
+    
 }
 
 .report {
     width: 540px;
     height: 960px;
     margin-left: 700px;
+}
+
+.cal {
+    float: left;
+    margin-left: 25px;
 }
