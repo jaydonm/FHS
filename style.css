@@ -5,7 +5,7 @@ html,body {
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #ffffff;
+    background-color: #89B6B7;
 }
 
 .title {
@@ -15,7 +15,10 @@ body {
     max-width: 100%;
     width: 100%;
     margin: auto;
-    scale: 100%;
+    scale: auto;
+    margin-top: 43px;
+    z-index: 200;
+
 }
 
 .bolded {
@@ -47,14 +50,19 @@ font-weight: bold;
     text-decoration: none;
     text-emphasis: none;
     color: rgb(0, 0, 0); 
-    position: fixed
+    position: absolute;
+    top:.7%;
+    left:33%;
+    z-index: 201;
+
+
 }
 
 a {
     text-decoration: none;
     color: #000000;
     padding: 15px;
-    background-color: #ffffff;
+    background-color: #89B6B7;
     font-weight:bold;
     font-size: 20px;
 
