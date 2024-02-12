@@ -7,7 +7,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     background-color: #89B6B7;
 }
-
+/* banner */
 .title {
     background-position: center;
     object-fit:fill ;
@@ -16,7 +16,7 @@ body {
     width: 100%;
     margin: auto;
     scale: auto;
-    margin-top: 43px;
+    margin-top: 1px;
     z-index: 200;
 
 }
@@ -29,7 +29,7 @@ font-weight: bold;
     font-size: 24px;
 }
 
-
+/* all text styles */
 .text .desc {
     width: 50%;
     padding: 20px;
@@ -39,25 +39,25 @@ font-weight: bold;
     box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, .3);
     border-radius: 23px;
 }
-
+/* logos */
 .logo {
     width: 450px;
     height: 100%;
     float: left;
 }
-
+/* page buttons */
 .pages {
     text-decoration: none;
     text-emphasis: none;
     color: rgb(0, 0, 0); 
-    position: absolute;
-    top:.7%;
-    left:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 201;
 
 
 }
-
+/* references */
 a {
     text-decoration: none;
     color: #000000;
@@ -68,14 +68,38 @@ a {
 
     
 }
+/*delivery reports*/
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .report {
     width: 1080px;
     height: 960px;
-    margin-left: 415px;
 }
 
+
+/*calendar(s)*/
+
+.calender-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 .cal {
-    float: left;
-    margin-left: 25px;
+ margin-left: 25px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
 }
