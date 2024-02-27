@@ -93,9 +93,7 @@ a {
 
 .contain {
     display:flex;
-    flex-direction: row;
-
-    
+    flex-direction: row;    
 }
 
 .text {
@@ -103,6 +101,9 @@ a {
     align-self: center;
 }
 
+#indeximage {
+    
+}
 
 /* slideshow container */
 
