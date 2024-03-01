@@ -1,16 +1,17 @@
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family:'Times New Roman', Times, serif;
-    background-color: #89B6B7;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #89b6b7;
 }
 /* banner */
 .title {
     background-position: center;
-    object-fit:fill ;
+    object-fit: fill;
     height: 100%;
     max-width: 100%;
     width: 100%;
@@ -18,24 +19,24 @@ body {
     scale: auto;
     margin-top: 1px;
     z-index: 200;
-
 }
 
 .bolded {
-font-weight: bold;
+    font-weight: bold;
 }
-
 
 /* all text styles */
 .desc {
     width: 70%;
     padding: 20px;
-    margin: 10px auto ;
-    background-color: #d5b397 ;
-    box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, .3);
+    display: table;
+    margin: 10px auto;
+    background-color: #d5b397;
+    box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, 0.3);
     border-radius: 23px;
     font-size: 24px;
-    max-width: 800px;
+    margin-right: 400px;
+    max-width: 750px;
 }
 /* logos */
 .logo {
@@ -47,37 +48,31 @@ font-weight: bold;
 .pages {
     text-decoration: none;
     text-emphasis: none;
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 201;
-
-
 }
 /* references */
 a {
     text-decoration: none;
     color: #000000;
     padding: 15px;
-    background-color: #89B6B7;
-    font-weight:bold;
+    background-color: #89b6b7;
+    font-weight: bold;
     font-size: 20px;
-
-    
 }
 /*delivery reports*/
 .pdf-container {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .report {
     width: 1080px;
     height: 960px;
 }
-
 
 /*calendar(s)*/
 
@@ -85,24 +80,25 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .cal {
- margin-left: 25px;
-}
-
-.contain {
-    display:flex;
-    flex-direction: row;    
+    margin-left: 25px;
+    margin-right: 0px;
+    max-width: 250px;
 }
 
 .text {
+    display: flex;
     flex: 1;
-    align-self: center;
+    flex-direction: column;
+    margin-left: 125px;
+    margin-right: 150px;
 }
 
-#indeximage {
-    
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 /* slideshow container */
@@ -137,7 +133,7 @@ a {
 }
 
 .prev:hover .next:hover {
-    background-color: rgba(0,0,0,0,8);
+    background-color: rgba(0, 0, 0, 0, 8);
 }
 
 .caption {
@@ -179,6 +175,10 @@ a {
 }
 
 @keyframes fade {
-    from {opacity: .4;}
-    to {opacity:1}
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
