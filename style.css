@@ -35,8 +35,8 @@ body {
     box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, 0.3);
     border-radius: 23px;
     font-size: 24px;
-    margin-right: 400px;
     max-width: 750px;
+    align-items: center;
 }
 /* logos */
 .logo {
@@ -91,9 +91,9 @@ a {
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin-left: 125px;
-    margin-right: 150px;
+    
 }
+
 
 .wrap {
     display: flex;
