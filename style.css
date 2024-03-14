@@ -124,6 +124,27 @@ a {
     flex-direction: row;
 }
 
+.aboutpagewrap{
+    display: flex;
+}
+ 
+
+#imgabout {
+    max-width: 650px;
+    max-height: 300px;
+    margin-left: 50px;
+}
+
+#imgaboutright {
+    max-width: 30%;
+    max-height: 25%;
+    margin-right: 20px;
+}
+
+.desc#abouttext {
+    margin-left: 90px;
+}
+
 /* slideshow container */
 
 .fullcarousel {
