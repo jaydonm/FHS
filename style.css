@@ -21,6 +21,12 @@ body {
     z-index: 200;
 }
 
+#email {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+}
+
 .bolded {
     font-weight: bold;
 }
@@ -30,13 +36,30 @@ body {
     width: 70%;
     padding: 20px;
     display: table;
-    margin: 10px auto;
+    margin: auto;
+
     background-color: #d5b397;
     box-shadow: 12px 8px 20px 0px rgba(0, 0, 0, 0.3);
     border-radius: 23px;
     font-size: 24px;
     max-width: 750px;
     align-items: center;
+}
+
+
+
+.desc#index {
+    margin-right: 2px;
+    margin-left: 50px;
+}
+
+#delivery.desc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* style for logo on homepage */
+.Picture {
+    margin-right: 100px;
 }
 /* logos */
 .logo {
@@ -80,11 +103,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
-.cal {
-    margin-left: 25px;
-    margin-right: 0px;
-    max-width: 250px;
+    
+#calendar {
+    margin-left: 30px;
 }
 
 .text {

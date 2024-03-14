@@ -12,9 +12,9 @@
     <a href="index.html"> Home </a>
     <a href="about.html"> About</a>
     <a href="calender.html"> Calendar </a>
-    <a href="contact"> Donations </a>
+    <a href="contact.html"> Contact </a>
     <a href="delivery-reports.html"> Delivery Reports </a>
-    <a href="gallery.html"> Gallery</a>
+    <!-- <a href="gallery.html"> Gallery</a> -->
 </div>
 
 <img class="title" src="images/bannerlogoFINAL.png" alt="sowwy it wont load"/>
@@ -22,17 +22,11 @@
 <div class="contain">
     <!--class that contains all the text thats on the main page for the website, unused in styles.css but just makes it alot neater when minimising the div-->
     <div class="wrap">
-        <div class="cal">
-            <iframe
-                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=MjRqbW9udGVpcm81MkBlcHNjaG9vbHNyaS5jb20&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbWJiM2RmN2ZhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19jbGFzc3Jvb200ZDkwNjJlMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb202OTM4YjM3Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb202N2VhNWQ2MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mNWNlMTNmZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201ZmUzMjJkMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21iMTJiNGNkYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb202Yjk4MWVhYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZXBzY2hvb2xzcmkuY29tX3NvaDFmNDJqMHEzNXQxbW9lcGo1b2ExZm9nQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbTA0NzlkMWY2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19jbGFzc3Jvb21mMTUzYzczZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201NTU3ZDY3N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21lMjEzZjU4NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbWU1MWU5NzEzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbWRjZDNmZDFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%23263238&color=%23b80672&color=%2333B679&color=%23202124&color=%230047a8&color=%23137333&color=%23174ea6&color=%23202124&color=%230B8043&color=%230047a8&color=%23E67C73&color=%23202124&color=%23b80672&color=%23c26401&color=%230047a8&color=%23880e4f&color=%233e2723"
-                    style="border: solid 1px #777"
-                    height="600"
-                    frameborder="0"
-                    scrolling="no"
-            ></iframe>
+        <div id="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&bgcolor=%23ffffff&src=amF5ZG9ubW9udGVpcm9AZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=YnYydHBicXFmMnNrb2ZrbzBscWpwdmxrc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB&color=%2333B679&color=%238E24AA" style="border:solid 1px #777" width="500" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="text">
-            <p class="desc">
+            <p class="desc" id="index">
                 <span class="bolded">For Humanity's Sake</span> is a
                 501-C-3 non-profit organization that operates in the
                 Cape Verdean Island of São Nicolau. For Humanity's Sake
@@ -47,16 +41,7 @@
             </p>
         </div>
 
-        <img class="Picture" src="/images/800xlogo.png" alt="blehhh">
-
-        <div class="cal" hidden>
-            <iframe
-                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=MjRqbW9udGVpcm81MkBlcHNjaG9vbHNyaS5jb20&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbWJiM2RmN2ZhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19jbGFzc3Jvb200ZDkwNjJlMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb202OTM4YjM3Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb202N2VhNWQ2MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mNWNlMTNmZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201ZmUzMjJkMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21iMTJiNGNkYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb202Yjk4MWVhYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZXBzY2hvb2xzcmkuY29tX3NvaDFmNDJqMHEzNXQxbW9lcGo1b2ExZm9nQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbTA0NzlkMWY2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19jbGFzc3Jvb21mMTUzYzczZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201NTU3ZDY3N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21lMjEzZjU4NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbWU1MWU5NzEzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZXBzY2hvb2xzcmkuY29tX2NsYXNzcm9vbWRjZDNmZDFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%23263238&color=%23b80672&color=%2333B679&color=%23202124&color=%230047a8&color=%23137333&color=%23174ea6&color=%23202124&color=%230B8043&color=%230047a8&color=%23E67C73&color=%23202124&color=%23b80672&color=%23c26401&color=%230047a8&color=%23880e4f&color=%233e2723"
-                    style="border: solid 1px #777"
-                    height="600"
-                    frameborder="0"
-                    scrolling="no"
-            ></iframe>
+            <img class="Picture" src="/images/800xlogo.png" alt="blehhh">
         </div>
     </div>
 </div>
